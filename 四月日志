@@ -126,3 +126,4 @@
 1.修改服务器上传图片时连接不到服务器的bug，修改下权限  
   具体修改语句GRANT ALL PRIVILEGES ON mind.* TO 'root'@'%' IDENTIFIED BY '123456' WITH GRANT OPTION;
 2.创建自动学习的感知机（能够自动识别逻辑与）  
+3.优化上传方法
