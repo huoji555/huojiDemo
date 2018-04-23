@@ -121,3 +121,8 @@
 1.感知机识别坐标系
 2.csdn两篇博客
 3.实现了一半的自动学习的逻辑与感知机
+
+# 2018.4.23
+1.修改服务器上传图片时连接不到服务器的bug，修改下权限  
+  具体修改语句GRANT ALL PRIVILEGES ON mind.* TO 'root'@'%' IDENTIFIED BY '123456' WITH GRANT OPTION;
+2.创建自动学习的感知机（能够自动识别逻辑与）  
