@@ -127,3 +127,9 @@
   具体修改语句GRANT ALL PRIVILEGES ON mind.* TO 'root'@'%' IDENTIFIED BY '123456' WITH GRANT OPTION;
 2.创建自动学习的感知机（能够自动识别逻辑与）  
 3.优化上传方法
+
+# 2018.4.24
+1.Adaline神经网络的建立
+2.Adaline核心算法LMS的实现
+3.Adaline神经网络识别矩阵数字(虽然因为'O'和'0'改了四个小时)
+4.北大公开信事件（声援）
