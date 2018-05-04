@@ -55,4 +55,26 @@
 
 
 
+# String 和StringBuffer的区别
+  
+  它们可以储存和操作字符串，即包含多个字符的字符数据。这个String类提供了数值不可改变的字符串。而这个StringBuffer类提供的字符串进行修
+  改。当你知道字符数据要改变的时候你就可以使用StringBuffer。典型地，你可以使用StringBuffers来动态构造字符数据。
+  
+  
+  
+# 说出Servlet的生命周期，并说出Servlet和CGI的区别
+
+  Servlet被服务器实例化后，容器运行其init方法（初始化）,请求到达时运行其service方法，service方法自动派遣运行与请求对应的
+  （doGET||doPOST）方法，当服务器决定将实例销毁的时候就用destory()方法。
+  
+  与cgi的区别是servlet处于服务器进程中，它通过多线程方式运行其service方法,一个实例可以服务于多个请求，并且其实例一般不会被销毁，而cgi
+  对每个请求都会产生新的进程，服务完成后就会销毁，效率上低于Servlet。
+  
+  
+
+
+
+
+
+
 
