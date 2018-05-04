@@ -33,10 +33,26 @@
 4. 接口是完全抽象的，不能被实例化；Java抽象类也不能实例化，但可以被调用，如果main()存在。
 
 
+
 # String是最基本的数据类型吗?
 
   基本数据类型包括byte、int、char、long、float、double、boolean和short  //数值型，字符型，布尔型 （这些存储时存储数据本身）
   java.lang.String类是final类型的，因此不可以继承这个类、不能修改这个类。为了提高效率节省空间，我们应该用StringBuffer类
   所以String不是最基本的数据类型，而是引用数据类型，与此类似的还有 类 接口 数组  （这些存储时存储的是数据的空间地址）
+
+
+
+# int 和 Integer 有什么区别
+
+  java中提供两种数据类型分别为 基本数据类型（int,byte,short,long...） 引用数据类型 (Integer String Double)
+  int 是 java 的原始数据类型, Integer 是 java 为 int 提供的封装类    //Java为每个原始类型提供了封装类
+  
+  原始类型封装类booleanBoolean  charCharacter  byteByte  shortShort  intInteger  longLong  floatFloat  doubleDouble
+  
+  引用类型和原始类型的行为完全不同，并且他们具有不同的意义，引用类型和原始类型具有不同的特征和用法，包括 1.大小和速度问题，2.这种类型
+  以哪种类型的数据结构存储  3.当引用类型和原始类型用作某个类的实例数据时所指定的缺省值 
+  //对象引用实例变量的缺省值为null，原始数据引用实例变量的缺省值跟原始数据的具体类型有关
+
+
 
 
