@@ -32,3 +32,5 @@
  2.controller层Restful风格(试用)，前端AngularJS
  3.@RequestMapping和@GetMapping,@PostMapping(好多人不讲原理，谁还不会用嘛)
  4.AngularJs在新框架的试用（测试成功），打算跳转什么的用路由，文件上传的还是AJAX(或许到时候调整新方案)
+ 5.最近开始根据业务设计后台的表结构（用户表，权限表，上传审核文件）
+ 6.界面先用简陋的风格写（回头加ui）
