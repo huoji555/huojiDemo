@@ -28,7 +28,7 @@
  6.数据连接池配置，Aop配置(启动类不可以跟其他包在同一级下，要不然会扫描不到)
  
  # 2018.87
- 1.简单的保存操作
+ 1.简单的保存操作（新框架测试）
  2.controller层Restful风格(试用)，前端AngularJS
  3.@RequestMapping和@GetMapping,@PostMapping(好多人不讲原理，谁还不会用嘛)
- 
+ 4.AngularJs在新框架的试用（测试成功），打算跳转什么的用路由，文件上传的还是AJAX(或许到时候调整新方案)
