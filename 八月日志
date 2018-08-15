@@ -76,5 +76,8 @@
  # 2018.8.15
  1.博客一篇(总结)
  2.excel解析出的json文件，能够正常读取
- 3.创建存储excel的数据库实体类
+   从jsonArray中取出，转换为map,entrySet遍历map,读取出相应的key值，val值
+ 3.创建存储excel的数据库实体类，根据key值，写入数据
  4.简单的存储demo
+ 
+
