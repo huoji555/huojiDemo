@@ -81,6 +81,12 @@
  4.resultBean用起来好恶心，略略略(dao层 & service层)
    jpaRepository可以调page也可以调findall,还可以saveAndFlush（总算齐活儿了）
  5.简单的账单上传页面以及通信测试
+ 
+ # 2018.8.16
+ 1.先祝自己生日快乐，能写更好的代码，有更好的习惯，学到更多的东西
+ 2.解决file与multipartfile转换的问题
+ 
+ 
  3.创建存储excel的数据库实体类，根据key值，写入数据
  4.简单的存储demo
  
