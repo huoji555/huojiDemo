@@ -107,4 +107,7 @@
  3.将之前代码中不规范的(比如controller中调repository)部分，修改
  4.查询时，默认类型为全部
  5.银行列表（实体类创建），excel导入模板的创建及数据的导入
+ 6.交易表Trade的实体类的创建,确定其数据类型(日期的数据类型为YY-MM-DD)
+   默认Data的通过ORM映射在数据库表中的是dataTime(YY-MM-DD hh:mm:ss),这时候通过之前的老方法规定他的生成类型columnDefinition
+ 7.修改 解析excel文件时的时间数据，由原来的String类型更改为Date   
  2.数据结构与算法（树的学习和补充）
