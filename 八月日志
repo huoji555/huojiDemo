@@ -116,6 +116,9 @@
  1.构建交易模态框
  2.通过前台时间戳获取当前日期  AngularJs时间戳转换
   e.g   到期时间:{{maturityTime | date:'yyyy-MM-dd'}}<br>
+ 3.调整查询结构，票据类型和票据名称互换
+ 4.票据日期的计算，过期票据直接抛出
+ 5.
  1.trade(交易表)Repostiory层的 创建
  2.service及impl，controller层的构建
  3.页面操作，根据用户选择的贴现或者质押的计算相应的回报
