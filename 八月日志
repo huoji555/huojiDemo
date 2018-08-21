@@ -118,7 +118,9 @@
   e.g   到期时间:{{maturityTime | date:'yyyy-MM-dd'}}<br>
  3.调整查询结构，票据类型和票据名称互换
  4.票据日期的计算，过期票据直接抛出
- 5.
- 1.trade(交易表)Repostiory层的 创建
+ 5.封装预估利率函数（精度用BigDecimal保持在2位）
+ 6.银行的Repository及Service层的创建，以及构建根据名称查询实体类
+ 7.构建交易类Trade的Repostiory层,及Servic，Imple层
+ 8.trade(交易表)Repostiory层的 创建
  2.service及impl，controller层的构建
  3.页面操作，根据用户选择的贴现或者质押的计算相应的回报
