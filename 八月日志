@@ -113,6 +113,9 @@
  8.二叉树的学习（看不懂的部分是二叉树的结构，也就是不会用）
  
  # 2018.8.21
+ 1.构建交易模态框
+ 2.通过前台时间戳获取当前日期  AngularJs时间戳转换
+  e.g   到期时间:{{maturityTime | date:'yyyy-MM-dd'}}<br>
  1.trade(交易表)Repostiory层的 创建
  2.service及impl，controller层的构建
  3.页面操作，根据用户选择的贴现或者质押的计算相应的回报
