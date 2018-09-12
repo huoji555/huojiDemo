@@ -1,1 +1,10 @@
+#Linux 运行jar ，后台进程运行jar 和结束后台正在运行的jar
 https://blog.csdn.net/PyFanL/article/details/73321694
+
+# linux安装redis
+https://www.cnblogs.com/lauhp/p/8487029.html
+
+# linux安装make(debain)
+apt install gcc                             //安装gcc
+apt install automake autoconf libtool make  //debain安装
+
