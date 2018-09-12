@@ -7,4 +7,3 @@ https://www.cnblogs.com/lauhp/p/8487029.html
 # linux安装make(debain)
 apt install gcc                             //安装gcc
 apt install automake autoconf libtool make  //debain安装
-
