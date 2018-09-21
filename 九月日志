@@ -125,3 +125,12 @@
 2.增加审核界面的审核功能
 3.自动生成审核率数据
 4.考研院校试水
+
+# 2018.9.21
+1.今日票价后台录入
+2.解析JSON对象数组     import net.sf.json.JSONArray;：
+  JSONArray ja = JSONArray.fromObject(map.get("tradeList"));
+
+        for (int i=0; i<ja.size(); i++) {
+            Integer id = new Integer(ja.getJSONObject(i).get("id").toString()); 
+        }
