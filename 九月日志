@@ -142,5 +142,12 @@
 # 2018.9.23
 1.政治，英语，抽空补全自己的思维导图
 2.报名
+3.政治第二讲
+4.审核页面过滤条件
+  模糊查询CONCAT连接
+  when case理清逻辑在写，而且!= 和=,而不是==(我的嘛，改了一下午错)
+  "and (case when :phone !='' then adm.phone_number=:phone else 1=1 end)"+
+                    "and (case when :status ='2' then aud.status is null when :status != '' then aud.status=:status else 1=1 end )"+
+                    "and (case when :company != '' then adm.company like CONCAT('%',:company,'%') else 1=1 end)"+
         
         
