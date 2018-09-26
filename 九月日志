@@ -160,6 +160,7 @@
   left join多条件查询的话 （条件写在on那里）
   select tic.ticket_number,tic.ticket_amount,tic.discount_status,dis.* from ticket tic
   left join ticket_discount dis
-  on tic.ticket_number=dis.ticket_number and dis.create_date = (select max(create_date) from ticket_discount where ticket_number=tic.ticket_number)
+  on tic.ticket_number=dis.ticket_number 
+  and dis.create_date = (select max(create_date) from ticket_discount where ticket_number=tic.ticket_number)
   where tic.uploader='12580' and dis.create_date between (select date_sub(now(),interval 1 week)) and (select now())
         
