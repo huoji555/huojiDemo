@@ -163,4 +163,9 @@
   on tic.ticket_number=dis.ticket_number 
   and dis.create_date = (select max(create_date) from ticket_discount where ticket_number=tic.ticket_number)
   where tic.uploader='12580' and dis.create_date between (select date_sub(now(),interval 1 week)) and (select now())
+6.查询时候出现问题，在mysql上死磕了一下午
+  （1）要记得连接之间的空格
+  （2）查询多个表时，防止出现多个字段
+  （3）切焦切燥，听着轻音乐仔细过一次，发现本质而不是急着寻求结果
+7.单元测试真好用  
         
