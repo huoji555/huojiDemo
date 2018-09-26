@@ -151,8 +151,15 @@
           "and (case when :company != '' then adm.company like CONCAT('%',:company,'%') else 1=1 end)"+
         
 # 2018.9.26  
-1.财务分析模块（需求，一点功能）
+1.财务分析模块（需求，一点功能）一点功能???WTF
 2.霍夫曼树复习
 3.政治课意识形态
 4.英语单词（背的真心头大）
+5.mysql 获取当前时间 select now()   获取整的日期select curdate()
+  获取当前日期的前一周 select date_sub(now(),interval 1 week)
+  left join多条件查询的话 （条件写在on那里）
+  select tic.ticket_number,tic.ticket_amount,tic.discount_status,dis.* from ticket tic
+  left join ticket_discount dis
+  on tic.ticket_number=dis.ticket_number and dis.create_date = (select max(create_date) from ticket_discount where ticket_number=tic.ticket_number)
+  where tic.uploader='12580' and dis.create_date between (select date_sub(now(),interval 1 week)) and (select now())
         
