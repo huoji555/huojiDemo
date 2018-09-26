@@ -139,7 +139,7 @@
 1.中秋假期第一天，找杭州的学校
 2.初步定为南师大，专业课有点摸不着北
 
-# 2018.9.23
+# 2018.9.25
 1.政治，英语，抽空补全自己的思维导图
 2.报名
 3.政治第二讲
@@ -150,4 +150,9 @@
                     "and (case when :status ='2' then aud.status is null when :status != '' then aud.status=:status else 1=1 end )"+
                     "and (case when :company != '' then adm.company like CONCAT('%',:company,'%') else 1=1 end)"+
         
+# 2018.9.26  
+1.财务分析模块（需求，一点功能）
+2.霍夫曼树复习
+3.政治课意识形态
+4.英语单词（背的真心头大）
         
