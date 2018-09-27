@@ -163,6 +163,7 @@
   on tic.ticket_number=dis.ticket_number 
   and dis.create_date = (select max(create_date) from ticket_discount where ticket_number=tic.ticket_number)
   where tic.uploader='12580' and dis.create_date between (select date_sub(now(),interval 1 week)) and (select now())
+  or tic.uploader='12580' and dis.create_date is null 
 6.查询时候出现问题，在mysql上死磕了一下午
   （1）要记得连接之间的空格
   （2）查询多个表时，防止出现多个字段
@@ -173,4 +174,6 @@
 # 2018.9.27
 1.政治两个课时，站也可资料查找
 2.财务汇总页面
+3.查询搞定了，计算用表格里的数据自己算
+4.查看详情写接口
         
