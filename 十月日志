@@ -13,9 +13,9 @@
 4.政治刷题
 5.小微贷系统日志查询
       ReversedLinesFileReader object = new ReversedLinesFileReader(file, 4096, "UTF-8");
-      while (counter <= Integer.parseInt(logVo.getRows())) {
+      while (counter <= Integer.parseInt(logVo.getRows())) {            //这个是恒小于的，一般就是用来读完这个文件
           if (counter == Integer.parseInt(logVo.getRows())) {
-              break;
+              break;                     //保证读完一次后就不再继续向下读了
           }
           datas.add(object.readLine());//读取下一行
 
