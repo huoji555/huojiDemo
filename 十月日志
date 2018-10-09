@@ -11,3 +11,14 @@
 2.高数2节
 3.下拉小微贷系统，创建本地分支dev001
 4.政治刷题
+5.小微贷系统日志查询
+      ReversedLinesFileReader object = new ReversedLinesFileReader(file, 4096, "UTF-8");
+      while (counter <= Integer.parseInt(logVo.getRows())) {
+          if (counter == Integer.parseInt(logVo.getRows())) {
+              break;
+          }
+          datas.add(object.readLine());//读取下一行
+
+          counter++;
+      }
+      Collections.reverse(datas);
