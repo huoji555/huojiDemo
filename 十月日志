@@ -57,3 +57,4 @@ http://www.hankcs.com/
 1.登录注册模块，密码加盐处理，或者其它方法
 2.Mail服务
 3.高数一节
+4.Redis配置
