@@ -70,5 +70,13 @@ http://www.hankcs.com/
 1.高数复习，问题解决
 2.数据结构
 3.emmm...后台界面搭建
+4.IDEA模板配置
+  *
+ * @auther: Ragty
+ * @describe: $describe$
+ * @param: $param$
+ * @return: $return$
+ * @date: $date$ 
+ */           同时还要开启那个Enter,默认是
 
 
