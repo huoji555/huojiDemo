@@ -101,3 +101,27 @@ http://www.hankcs.com/
 2.晚上地铁最好可看数据结构
 3.确认还款功能
 4.直播App调整
+
+# 2018.10.24
+1.首先，节日快乐
+2.高数一节
+3.数据结构，英语单词
+4.兼容IE浏览器，修改导出数据问题(以下为判别浏览器内核)
+   if (regs = userAgent.match(/MSIE\s(\d+)\..*/)) {
+    // ie 除11
+    data.browser = 'ie ' + regs['1'];
+  } else if (regs = userAgent.match(/FireFox\/(\d+)\..*/)) {
+    data.browser = 'firefox ' + regs['1'];
+  } else if (regs = userAgent.match(/Opera[\s|\/](\d+)\..*/)) {
+    data.browser = 'opera ' + regs['1'];
+  } else if (regs = userAgent.match(/Chrome\/(\d+)\..*/)) {
+    data.browser = 'chrome ' + regs['1'];
+  } else if (regs = userAgent.match(/Safari\/(\d+)\..*$/)) {
+    // chrome浏览器都声明了safari
+    data.browser = 'safari ' + regs['1'];
+  } else if (regs = userAgent.match(/rv:(\d+)\..*/)) {
+    // ie 11
+    data.browser = 'ie ' + regs['1'];
+  }
+  IE真是个***********浏览器
+
