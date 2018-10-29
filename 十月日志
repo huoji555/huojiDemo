@@ -137,3 +137,8 @@ http://www.hankcs.com/
 # 2018.10.29
 1.高数一节，英语bilibili
 2.异常模块分页显示，日期查询
+3.jpa分页条件查询
+  小动作都在PageReguest中
+  Sort sort = new Sort(Sort.Direction.DESC, "createdate")
+                   .and(new Sort(Sort.Direction.AES, "id"));
+  Pageable pageable = new PageRequest(1, 10, sort);
