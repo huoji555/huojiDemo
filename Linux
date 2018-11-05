@@ -7,3 +7,14 @@ https://www.cnblogs.com/lauhp/p/8487029.html
 # linux安装make(debain)
 apt install gcc                             //安装gcc
 apt install automake autoconf libtool make  //debain安装
+
+# windows开启远程连接
+redis.windows.conf
+redis.windows-service.conf
+这两个文件 #127.0.0.1（注释掉地址）
+同时 protected-mode no
+
+# windows 后台启动redis
+redis-server --service-install redis.windows.conf --loglevel verbose ( 安装redis服务 )
+redis-server --service-start ( 启动服务 )
+redis-server --service-stop （停止服务）
