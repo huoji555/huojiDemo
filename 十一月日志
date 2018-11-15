@@ -59,3 +59,6 @@
 3.逾期还款功能调整
 4.计网 数据链路层 介质访问控制(MAC子层) 频分 时分 波分 码分
 5.数据结构（第三章 栈和队列）
+6.sql 强制转换
+SELECT SUM(CAST(record.daily_fine AS DECIMAL(18,2))) as sumFine FROM smartloan_sg_delay_record record
+7.思维导图右键菜单出现问题，无法选中元素，溯其根本，是加载显示时就出现了问题(调整)
