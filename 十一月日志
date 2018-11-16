@@ -67,4 +67,4 @@ SELECT SUM(CAST(record.daily_fine AS DECIMAL(18,2))) as sumFine FROM smartloan_s
 1.政治，英语
 2.线代 同解方程组
 3.计网
-4.修复右键菜单bug
+4.修复右键菜单bug(之前右键菜单是监听jmnode 现在换成了jmnodes) //费了一天的工夫呀
