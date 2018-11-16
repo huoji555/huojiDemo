@@ -62,3 +62,9 @@
 6.sql 强制转换
 SELECT SUM(CAST(record.daily_fine AS DECIMAL(18,2))) as sumFine FROM smartloan_sg_delay_record record
 7.思维导图右键菜单出现问题，无法选中元素，溯其根本，是加载显示时就出现了问题(调整)
+
+# 2018.11.16
+1.政治，英语
+2.线代 同解方程组
+3.计网
+4.修复右键菜单bug
