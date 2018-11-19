@@ -74,3 +74,8 @@ SELECT SUM(CAST(record.daily_fine AS DECIMAL(18,2))) as sumFine FROM smartloan_s
 2.线代 同解方程组
 3.栈，队列(以及习题)
 4.思维导图使用修改节点时使用ListItertor去迭代(可修改数组),优化循环速度
+
+# 2018.11.19
+1.昨日公司，栈与队列
+2.线代，政治，英语，思维导图
+3.删除节点功能
