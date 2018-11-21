@@ -85,3 +85,8 @@ SELECT SUM(CAST(record.daily_fine AS DECIMAL(18,2))) as sumFine FROM smartloan_s
 2.栈和队列
 3.显示子节点功能
 4.显示完整图功能
+
+# 2018.11.21
+1.线代，英语，政治
+2.树与二叉树
+3.我在2018年 php
