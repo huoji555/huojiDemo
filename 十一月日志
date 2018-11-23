@@ -107,3 +107,9 @@ SELECT SUM(CAST(record.daily_fine AS DECIMAL(18,2))) as sumFine FROM smartloan_s
 3.预期查询功能  
 4.简单的判断为空的函数
 select IFNULL(sum( corpus ),0.0), IFNULL(sum(interest),0.0) from smartloan_sg_repay_plans where  loan_id = 'WXD23000527'
+5.events	一个或多个用空格分隔的事件类型和可选的命名空间。
+  selector	可选。一个选择器字符串，用以过滤选定的元素，该选择器的后裔元素将调用处理程序。
+  如果选择是空或被忽略，当它到达选定的元素，事件总是触发。
+  data	可选。作为event.data属性值传递给事件对象的额外数据对象以供事件处理函数处理。
+  fn	该事件被触发时执行的函数。 false值也可以做一个函数的简写，返回false。
+  $("#jsmind_container").on('contextmenu',"jmnode", function(e)
