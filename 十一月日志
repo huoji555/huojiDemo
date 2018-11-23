@@ -100,3 +100,7 @@ SELECT SUM(CAST(record.daily_fine AS DECIMAL(18,2))) as sumFine FROM smartloan_s
 3.思维导图，二叉树学习
 4.逾期信息查询
 5.之前的思维导图的可视化思路完全错了，应按照多个页面路由的方式进行加载
+
+# 2018.11.23
+1.英语，政治
+2.二叉树习题
