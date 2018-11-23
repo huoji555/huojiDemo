@@ -104,3 +104,6 @@ SELECT SUM(CAST(record.daily_fine AS DECIMAL(18,2))) as sumFine FROM smartloan_s
 # 2018.11.23
 1.英语，政治
 2.二叉树习题
+3.预期查询功能  
+4.简单的判断为空的函数
+select IFNULL(sum( corpus ),0.0), IFNULL(sum(interest),0.0) from smartloan_sg_repay_plans where  loan_id = 'WXD23000527'
