@@ -126,3 +126,7 @@ select IFNULL(sum( corpus ),0.0), IFNULL(sum(interest),0.0) from smartloan_sg_re
 # 2018.11.26
 1.政治，英语，复习考卷
 2.高数大题，二叉树
+3.关于jpa中 save update事务的理解
+  如果放在同一事务里，save操作先执行select操作,再执行两条upodate操作，且执行顺序与代码顺序相反，导致无法正常执行操作
+  解决方法 1.在小的代码块内加事务
+          2.统一用update修改,比save()快多了
