@@ -13,3 +13,5 @@ ElasticSearch 数据导出工具，目前支持json、txt。20亿的索引表中
 4.[数字世界中的纸张](https://type.cyhsu.xyz/2018/09/understanding-pdf-the-digitalized-paper/)
 
 5.[动态数据结构](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+
+6.[如何成为一个优秀的工程师](https://jvns.ca/blog/so-you-want-to-be-a-wizard/)
