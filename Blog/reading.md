@@ -11,3 +11,5 @@ ElasticSearch 数据导出工具，目前支持json、txt。20亿的索引表中
 麻省理工学院以前用著名的 SICP 作为编程教程，但是该书使用 Scheme 语言作为示例，再加上出版多年，现在已经不用了。作为改进，2001年出版了《如何设计程序》这本教材（缩写为 HTDP），2018年又出版了该书的第二版，使用 Racket 语言的图形界面 DrRacket 作为示例，内容全部开源。
 
 4.[数字世界中的纸张](https://type.cyhsu.xyz/2018/09/understanding-pdf-the-digitalized-paper/)
+
+5.[动态数据结构](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
