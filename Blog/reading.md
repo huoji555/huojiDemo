@@ -15,3 +15,5 @@ ElasticSearch 数据导出工具，目前支持json、txt。20亿的索引表中
 5.[动态数据结构](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 
 6.[如何成为一个优秀的工程师](https://jvns.ca/blog/so-you-want-to-be-a-wizard/)
+
+7.[比特币白皮书中文版](https://github.com/xiaolai/bitcoin-whitepaper-chinese-translation/blob/master/Bitcoin-Whitepaper-EN-CN.md)
