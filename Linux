@@ -18,3 +18,6 @@ redis.windows-service.conf
 redis-server --service-install redis.windows.conf --loglevel verbose ( 安装redis服务 )
 redis-server --service-start ( 启动服务 )
 redis-server --service-stop （停止服务）
+
+# cmd 创建WIFI
+netsh wlan set hostednetwork mode=allow ssid=Test key=0123456789
