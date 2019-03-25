@@ -17,3 +17,7 @@ ElasticSearch 数据导出工具，目前支持json、txt。20亿的索引表中
 6.[如何成为一个优秀的工程师](https://jvns.ca/blog/so-you-want-to-be-a-wizard/)
 
 7.[比特币白皮书中文版](https://github.com/xiaolai/bitcoin-whitepaper-chinese-translation/blob/master/Bitcoin-Whitepaper-EN-CN.md)
+
+8.[Deep Learning](https://livebook.manning.com/#!/book/grokking-deep-learning/)
+
+9.[创业文集](https://pmarchive.com/)
