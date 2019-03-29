@@ -21,3 +21,5 @@ ElasticSearch 数据导出工具，目前支持json、txt。20亿的索引表中
 8.[Deep Learning](https://livebook.manning.com/#!/book/grokking-deep-learning/)
 
 9.[创业文集](https://pmarchive.com/)
+
+10.[计算机理论导论(哈佛)](https://introtcs.org/public/index.html)
