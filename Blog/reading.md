@@ -13,6 +13,7 @@ ElasticSearch 数据导出工具，目前支持json、txt。20亿的索引表中
 4.[数字世界中的纸张](https://type.cyhsu.xyz/2018/09/understanding-pdf-the-digitalized-paper/)
 
 5.[动态数据结构](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+  [中文版动态数据结构](https://visualgo.net/zh)
 
 6.[如何成为一个优秀的工程师](https://jvns.ca/blog/so-you-want-to-be-a-wizard/)
 
@@ -23,3 +24,5 @@ ElasticSearch 数据导出工具，目前支持json、txt。20亿的索引表中
 9.[创业文集](https://pmarchive.com/)
 
 10.[计算机理论导论(哈佛)](https://introtcs.org/public/index.html)
+
+11.[我们不再需要Chorme](https://redalemeden.com/blog/2019/we-need-chrome-no-more)
