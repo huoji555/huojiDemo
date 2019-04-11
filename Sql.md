@@ -1,4 +1,5 @@
-### 1.人生第一个存储过程
+###### 1.人生第一个存储过程
+```
 CREATE DEFINER = `root`@`localhost` PROCEDURE `NewProc`(INOUT `left1` varchar(20),INOUT `right1` varchar(20),INOUT `feed1` varchar(20))
 BEGIN
 	DECLARE leftlen,rightlen,feedlen INT;
@@ -19,3 +20,11 @@ set feedlen = 2323;
 	END IF;
    
 END;
+```<br>
+
+
+###### 2.存储过程中遇到的问题，记录一下
+连接符CONCAT：很多内容是不允许`+`的，需要连接符
+Mysql中的获取当前日期不能用`getDate()`,而应该选用`Now()`;
+Mysql中测量两个日期之间的天数，需要用 `TIMESTAMPDIFF(MINUTE,Astartdate,now())` 这个函数
+Mysql中给变量赋值时，不能像SqlServer中的`=`,而是应该选用`into`
