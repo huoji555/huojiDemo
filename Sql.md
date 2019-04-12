@@ -32,3 +32,5 @@ Mysql中的获取当前日期不能用`getDate()`,而应该选用`Now()`;
 Mysql中测量两个日期之间的天数，需要用 `TIMESTAMPDIFF(MINUTE,Astartdate,now())` 这个函数
 
 Mysql中给变量赋值时，不能像SqlServer中的`=`,而是应该选用`into`
+
+Mysql中的`CONVERT`,`CAST`,可用`ROUND(X,Y)`代替
