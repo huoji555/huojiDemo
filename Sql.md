@@ -34,3 +34,5 @@ Mysql中测量两个日期之间的天数，需要用 `TIMESTAMPDIFF(MINUTE,Asta
 Mysql中给变量赋值时，不能像SqlServer中的`=`,而是应该选用`into`
 
 Mysql中的`CONVERT`,`CAST`,可用`ROUND(X,Y)`代替
+
+Mysql中的`return`,一般用`label:BEGIN`作为开头，`Leave label`作为返回语句
