@@ -7,3 +7,5 @@
 [计算机组成原理](https://github.com/SSHeRun/Principle-of-Computer-Composition)
 
 [408真题](https://github.com/nnngu/Postgraduate-408-old-exam)
+
+[数据结构排序算法](https://github.com/MisterBooo/LeetCodeAnimation)
