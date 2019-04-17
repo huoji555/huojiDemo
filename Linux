@@ -23,7 +23,7 @@ redis-server --service-stop （停止服务）
 netsh wlan set hostednetwork mode=allow ssid=Test key=0123456789
 
 # linux配置jdk
-```
+```java
 修改/etc/profile，加入JDK
 export JAVA_HOME=/usr/coallocal/jdk1.8.0_151
 export JRE_HOME=/usr/coallocal/jdk1.8.0_151/jre
