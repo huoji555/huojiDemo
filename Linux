@@ -21,3 +21,18 @@ redis-server --service-stop （停止服务）
 
 # cmd 创建WIFI
 netsh wlan set hostednetwork mode=allow ssid=Test key=0123456789
+
+# linux配置jdk
+```
+修改/etc/profile，加入JDK
+export JAVA_HOME=/usr/coallocal/jdk1.8.0_151
+export JRE_HOME=/usr/coallocal/jdk1.8.0_151/jre
+export CLASSPATH=.:$JAVA_HOME/jre/lib/rt.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+export PATH=$PATH:$JAVA_HOME/bin
+jdk授权
+chmod +x /usr/coallocal/jdk1.8.0_151/jre/bin/*
+chmod +x /usr/coallocal/jdk1.8.0_151/bin/*
+chmod +x /usr/coallocal/apache-tomcat-7.0.79/bin/*
+启用更新
+source /etc/profile
+```
