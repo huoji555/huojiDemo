@@ -23,48 +23,111 @@ redis-server --service-stop （停止服务）
 netsh wlan set hostednetwork mode=allow ssid=Test key=0123456789
 
 # linux配置jdk
-```java
-public class WikiFetcher {
+修改/etc/profile，加入JDK
+export JAVA_HOME=/usr/coallocal/jdk1.8.0_151
+export JRE_HOME=/usr/coallocal/jdk1.8.0_151/jre
+export CLASSPATH=.:$JAVA_HOME/jre/lib/rt.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+export PATH=$PATH:$JAVA_HOME/bin
+jdk授权
+chmod +x /usr/coallocal/jdk1.8.0_151/jre/bin/*
+chmod +x /usr/coallocal/jdk1.8.0_151/bin/*
+chmod +x /usr/coallocal/apache-tomcat-7.0.79/bin/*
+启用更新
+source /etc/profile
 
-    private long lastRequestTime = -1;
-    private long minIterval = 1000;
+# linux的mysql(CentenOS 6.5 rpm安装)
+`检查是否安装了mysql`
+rpm -qa | grep mysql
+mysql-libs-5.1.71-1.el6.x86_64
+
+`删除mysql`
+rpm -e --nodeps mysql-libs-5.1.71-1.el6.x86_64
+
+`下载mysql社区版 ：MySQL Community Downloads`
+mysql-8.0.12-1.el6.x86_64.rpm-bundle.tar
+
+`解压：`
+tar -zxvf mysql-8.0.12-1.el6.x86_64.rpm-bundle.tar
+tar -xvf mysql-8.0.12-1.el6.x86_64.rpm-bundle.tar
+
+`我们只需要依次安装需要的几个RPM包即可，安装之前需要卸载掉centos自带的mariadb-libs：`
+rpm -e --nodeps mariadb-libs
+
+`先安装这个`：yum install libaio -y
+yum  install    numactl -y
+yum install perl -y
+
+rpm -ivh mysql-community-common-8.0.12-1.el6.x86_64.rpm 
+rpm -ivh mysql-community-libs-8.0.12-1.el6.x86_64.rpm 
+rpm -ivh mysql-community-client-8.0.12-1.el6.x86_64.rpm 
+rpm -ivh mysql-community-server-8.0.12-1.el6.x86_64.rpm
+
+=================7-=========
+centos7 需要：yum install cyrus-sasl-lib -y
+libsasl2.so.2()(64bit) 被 mysql-community-server-8.0.12-1.el6.x86_64
+rpm -ivh mysql-community-server-8.0.12-1.el6.x86_64.rpm --force --nodeps
+==============7========
+
+`启动mysql服务：`
+service mysqld start或者/etc/init.d/mysqld start
+
+`开机启动：`
+chkconfig --add mysqld，查看开机启动设置是否成功chkconfig --list | grep mysql*
+mysqld            0:关闭    1:关闭    2:启用    3:启用    4:启用    5:启用    6:关闭
+
+`停止：`
+service mysqld stop
+
+---------------------第一次启动失败找密码
+[root@byrj mysqlrpm]# service mysqld start
+Initializing MySQL database:                               [FAILED]//失败了，所以下次再启动就没有初始化密码了
+[root@byrj mysqlrpm]# service mysqld start
+Starting mysqld:                                           [  OK  ]
+[root@byrj mysqlrpm]# grep 'temporary password' /var/log/mysqld.log
+[root@byrj mysqlrpm]# mysql -uroot -p
+Enter password: 
+
+`管理密码`
+mysql> ALTER USER user() IDENTIFIED   BY'hdmy@mysql2018';
+Query OK, 0 rows affected (0.16 sec) 
+
+`网络连接数据用密码`
+mysql> ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY'Hdmy@2018MM';
+ERROR 1396 (HY000): Operation ALTER USER failed for 'root'@'%'
+mysql> create USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY'Hdmy@2018MM';
+
+`授权`
+mysql> show grants for root@'%';
++----------------------------------+
+| Grants for root@%                |
++----------------------------------+
+| GRANT USAGE ON *.* TO `root`@`%` |
++----------------------------------+
+1 row in set (0.00 sec)
+没有权限啊，用下面授权
+mysql> GRANT ALL ON *.* TO 'root'@'%';
+Query OK, 0 rows affected (0.12 sec)
+mysql> flush privileges;
+
+mysql> show grants for root@'%';
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Grants for root@%                                                                                                                                                                                                                                                                                                                                                              |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, RELOAD, SHUTDOWN, PROCESS, FILE, REFERENCES, INDEX, ALTER, SHOW DATABASES, SUPER, CREATE TEMPORARY TABLES, LOCK TABLES, EXECUTE, REPLICATION SLAVE, REPLICATION CLIENT, CREATE VIEW, SHOW VIEW, CREATE ROUTINE, ALTER ROUTINE, CREATE USER, EVENT, TRIGGER, CREATE TABLESPACE, CREATE ROLE, DROP ROLE ON *.* TO `root`@`%` |
+| GRANT BACKUP_ADMIN,BINLOG_ADMIN,CONNECTION_ADMIN,ENCRYPTION_KEY_ADMIN,GROUP_REPLICATION_ADMIN,PERSIST_RO_VARIABLES_ADMIN,REPLICATION_SLAVE_ADMIN,RESOURCE_GROUP_ADMIN,RESOURCE_GROUP_USER,ROLE_ADMIN,SET_USER_ID,SYSTEM_VARIABLES_ADMIN,XA_RECOVER_ADMIN ON *.* TO `root`@`%`                                                                                                  |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+2 rows in set (0.00 sec)
 
 
-    /**
-     * @Author Ragty
-     * @Description  找到并解析数据
-     * @Date 10:15 2019/4/16
-     **/
-    public Elements fetchWikiPedia(String url) throws IOException {
-        sleepIfNeed();
-        Connection connection = Jsoup.connect(url);
-        Document doc = connection.get();
-        Element content = doc.getElementById("mw-content-text");
-        Elements para = content.select("p");
-        return para;
-    }
 
 
-    /**
-     * @Author Ragty
-     * @Description 通过最小访问时间来限制范围访问频率
-     * @Date 10:43 2019/4/16
-     **/
-    private void sleepIfNeed() {
-        if (lastRequestTime != -1) {
-            long currentTime = System.currentTimeMillis();
-            long nextRequestTime = lastRequestTime + minIterval;
-            if (currentTime < lastRequestTime) {
-                try {
-                    Thread.sleep(nextRequestTime - currentTime);
-                } catch (InterruptedException e) {
-                    System.err.println("Warning: sleep interrupted in fetchWikipedia.");
-                }
-            }
-        }
-        lastRequestTime = System.currentTimeMillis();
-    }
 
-}
-```
+
+
+
+
+
+
+
+
 
