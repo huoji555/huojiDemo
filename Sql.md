@@ -38,3 +38,5 @@ Mysql中的`CONVERT`,`CAST`,可用`ROUND(X,Y)`代替
 Mysql中的`return`,一般用`label:BEGIN`作为开头，`Leave label`作为返回语句
 
 Mysql中转义存储过程和函数时，默认设置会报错，需要一句`et global log_bin_trust_function_creators=TRUE;`
+
+Mysql中字符串计算长度时，用`Length()`,里边有别的字符时，可以用`CHAR_LENGTH()`,否则一个汉字是占3个字符长度，会造成误差
