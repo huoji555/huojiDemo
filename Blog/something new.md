@@ -8,3 +8,10 @@
 
 ### 3.semiconductor
 谷歌的一个 AI 试验，用户对着摄像头做出指挥的动作，谷歌会识别动作，然后配上乐队的音乐。
+
+### 4.[日本DNA相亲](https://m2.people.cn/r/MV8wXzEyMzQwNTM2XzIwNDU3NV8xNTUwNDg0MzIx)
+感觉是挺方便的，要是找到的不好看，可找谁说去
+
+### 5.[AI换脸](https://havetheyfaked.me/)
+感觉不太真实，自己的还可以，但是加过滤镜的就不可以了
+
