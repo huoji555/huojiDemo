@@ -5,3 +5,5 @@
 > [不知名](https://type.cyhsu.xyz/)
 
 > [区块链](http://lixiaolai.com/page/2/)
+
+> [snaker(搜索引擎及对话机器人)](http://www.snakehacker.me/)
