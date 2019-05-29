@@ -122,6 +122,12 @@ mysql> show grants for root@'%';
 GRANT ALL ON *.* TO 'root'@'%';
 show grants for root@'%';
 
+# mysql 8.0 2059错误解决（可查看服务端防火墙问题）
+ALTER USER 'sa2'@'%' IDENTIFIED BY 'Jjbj@2019' PASSWORD EXPIRE NEVER; 
+
+ALTER USER 'sa2'@'%' IDENTIFIED WITH mysql_native_password BY 'Jjbj@2019';
+
+FLUSH PRIVILEGES;
 
 
 
