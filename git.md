@@ -12,5 +12,5 @@
 ### git单文件提交
 >git status     //查看git上的待提交文件状态，红色在工作区，绿色在暂存区<br>
 >git add ./+刚才的文件路径  //将文件从工作区，提交到暂存区，此时，git status再次查看<br>
->git commit  //输入提交信息,vi模式退出wq;<br>
+>git commit  //输入提交信息,vi模式退出(Esc进入命令模式，:wq保存文件并退出);<br>
 >git push    //上传选择的文件<br>
