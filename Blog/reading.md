@@ -26,3 +26,7 @@ ElasticSearch 数据导出工具，目前支持json、txt。20亿的索引表中
 10.[计算机理论导论(哈佛)](https://introtcs.org/public/index.html)
 
 11.[我们不再需要Chorme](https://redalemeden.com/blog/2019/we-need-chrome-no-more)
+
+12.[如何构建多人在线编辑器](https://news.ycombinator.com/item?id=19845776)
+
+13.[微软复兴](https://www.bloomberg.com/news/features/2019-05-02/satya-nadella-remade-microsoft-as-world-s-most-valuable-company)
