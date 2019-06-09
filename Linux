@@ -187,14 +187,5 @@ NETMASK=255.255.255.0
 GATEWAY=默认网关
 DNS1=DNS解析
 
-
-
-
-
-
-
-
-
-
-
-
+重启网络配置
+service network restart
