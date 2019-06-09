@@ -28,6 +28,20 @@ export JAVA_HOME=/usr/coallocal/jdk1.8.0_151
 export JRE_HOME=/usr/coallocal/jdk1.8.0_151/jre
 export CLASSPATH=.:$JAVA_HOME/jre/lib/rt.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 export PATH=$PATH:$JAVA_HOME/bin
+
+# 配置多个tomcat(修改同上文件，默认的不需配置)
+####tomcat-8080 
+TOMCAT_HOME_8080=/usr/coallocal/apache-tomcat-7.0.79-8080
+CATALINA_HOME_8080=/usr/coallocal/apache-tomcat-7.0.79-8080
+CATLINA_BASE_8080=/usr/coallocal/apache-tomcat-7.0.79-8080
+export TOMCAT_HOME_8080  CATALINA_HOME_8080  CATALINA_BASE_8080
+
+####tomcat-8081 
+TOMCAT_HOME_8081=/usr/coallocal/apache-tomcat-7.0.79-8081
+CATALINA_HOME_8081=/usr/coallocal/apache-tomcat-7.0.79-8081
+CATLINA_BASE_8081=/usr/coallocal/apache-tomcat-7.0.79-8081
+export TOMCAT_HOME_8081  CATALINA_HOME_8081  CATALINA_BASE_8081
+
 jdk授权
 chmod +x /usr/coallocal/jdk1.8.0_151/jre/bin/*
 chmod +x /usr/coallocal/jdk1.8.0_151/bin/*
@@ -67,6 +81,10 @@ centos7 需要：yum install cyrus-sasl-lib -y
 libsasl2.so.2()(64bit) 被 mysql-community-server-8.0.12-1.el6.x86_64
 rpm -ivh mysql-community-server-8.0.12-1.el6.x86_64.rpm --force --nodeps
 ==============7========
+
+mysql8.0对大小写敏感
+需要在 /etc/my.cnf下加配置
+lower_case_table_names =1
 
 `启动mysql服务：`
 service mysqld start或者/etc/init.d/mysqld start
@@ -128,6 +146,46 @@ ALTER USER 'sa2'@'%' IDENTIFIED BY 'Jjbj@2019' PASSWORD EXPIRE NEVER;
 ALTER USER 'sa2'@'%' IDENTIFIED WITH mysql_native_password BY 'Jjbj@2019';
 
 FLUSH PRIVILEGES;
+
+# 修改防火墙
+vi etc/sysConfig/iptables
+
+-A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+-A INPUT -p icmp -j ACCEPT
+-A INPUT -i lo -j ACCEPT
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 22 -j ACCEPT
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 80 -j ACCEPT
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 8080 -j ACCEPT
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 8081 -j ACCEPT
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 3306 -j ACCEPT
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 8082 -j ACCEPT
+-A INPUT -j REJECT --reject-with icmp-host-prohibited
+-A FORWARD -j REJECT --reject-with icmp-host-prohibited
+
+# 添加默认启动项
+vi /etc/rc.d/rc.local
+
+touch /var/lock/subsys/local
+source /etc/profile
+/usr/coallocal/apache-tomcat-7.0.79/bin/startup.sh
+/usr/coallocal/apache-tomcat-7.0.79-8080/bin/startup.sh
+/usr/coallocal/apache-tomcat-7.0.79-8081/bin/startup.sh
+
+# 检查java进程
+ps -ef|grep java
+
+# 配置IP网络
+注意这里配置网卡口
+
+vi /etc/sysconfig/network-scripts/ifcfg-eth0
+
+TYPE=Ethernet
+BOOTPROTO=static
+ONBOOT=yes
+IPADDR=网址
+NETMASK=255.255.255.0
+GATEWAY=默认网关
+DNS1=DNS解析
 
 
 
