@@ -18,3 +18,6 @@
 ### 6.躲过机器识别
 比利时鲁汶大学开发出一种二维图像，只要将其打印在衣服上面，就会令监控系统无法识别出这是一个人体。上图左侧是正常的识别，右侧佩戴这种图像以后，识别系统就失灵了，没有认出这是一个人。它的原理是，通过图像产生足够的噪音，增加随机性，使得模型无法得出结论。
 
+### 7.[一张照片生成各种表情](https://www.cnet.com/news/samsung-ai-deepfake-can-fabricate-a-video-of-you-from-a-single-photo-mona-lisa-cheapfake-dumbfake/)
+根据一张照片可以生成各种表情，三星的确很久没出现在我的视野中了
+
