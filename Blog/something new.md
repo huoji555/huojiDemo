@@ -21,3 +21,7 @@
 ### 7.[一张照片生成各种表情](https://www.cnet.com/news/samsung-ai-deepfake-can-fabricate-a-video-of-you-from-a-single-photo-mona-lisa-cheapfake-dumbfake/)
 根据一张照片可以生成各种表情，三星的确很久没出现在我的视野中了
 
+### 8.[重新设计购物小票](https://www.fastcompany.com/90347782/the-humble-receipt-gets-a-brilliant-redesign)
+购物小票可视化，感觉很好看的
+![](https://camo.githubusercontent.com/627456ca526da54ed6df9f0bdb4262c6f6c2cd86/68747470733a2f2f7777772e77616e67626173652e636f6d2f626c6f67696d672f61737365742f3230313930362f6267323031393036313430332e6a7067)
+![](https://camo.githubusercontent.com/d8a94312808dc1f1ee5b7f5b8f73850365f1531b/68747470733a2f2f7777772e77616e67626173652e636f6d2f626c6f67696d672f61737365742f3230313930362f6267323031393036313430342e6a7067)
