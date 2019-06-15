@@ -30,3 +30,5 @@ ElasticSearch 数据导出工具，目前支持json、txt。20亿的索引表中
 12.[如何构建多人在线编辑器](https://news.ycombinator.com/item?id=19845776)
 
 13.[微软复兴](https://www.bloomberg.com/news/features/2019-05-02/satya-nadella-remade-microsoft-as-world-s-most-valuable-company)
+
+14.[加州伯克利概率论](http://prob140.org/textbook/chapters/README)
