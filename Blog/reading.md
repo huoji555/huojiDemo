@@ -32,3 +32,5 @@ ElasticSearch 数据导出工具，目前支持json、txt。20亿的索引表中
 13.[微软复兴](https://www.bloomberg.com/news/features/2019-05-02/satya-nadella-remade-microsoft-as-world-s-most-valuable-company)
 
 14.[加州伯克利概率论](http://prob140.org/textbook/chapters/README)
+
+15.[LaTex的历史](https://increment.com/open-source/the-lingua-franca-of-latex/)
