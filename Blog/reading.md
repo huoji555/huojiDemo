@@ -34,3 +34,5 @@ ElasticSearch 数据导出工具，目前支持json、txt。20亿的索引表中
 14.[加州伯克利概率论](http://prob140.org/textbook/chapters/README)
 
 15.[LaTex的历史](https://increment.com/open-source/the-lingua-franca-of-latex/)
+
+16.[机器人父亲](https://mp.weixin.qq.com/s/yVcCRpIrCN-O8eekJYNzmw)
