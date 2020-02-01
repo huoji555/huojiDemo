@@ -38,3 +38,5 @@ ElasticSearch 数据导出工具，目前支持json、txt。20亿的索引表中
 16.[机器人父亲](https://mp.weixin.qq.com/s/yVcCRpIrCN-O8eekJYNzmw)
 
 17.[社交媒体挖掘](http://socialdata.site/)
+
+18.[为什么我离开谷歌](https://mtlynch.io/why-i-quit-google/)
