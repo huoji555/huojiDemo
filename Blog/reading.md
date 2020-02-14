@@ -40,3 +40,5 @@ ElasticSearch 数据导出工具，目前支持json、txt。20亿的索引表中
 17.[社交媒体挖掘](http://socialdata.site/)
 
 18.[为什么我离开谷歌](https://mtlynch.io/why-i-quit-google/)
+
+19.[神经网络原理简介](https://github.com/gokadin/ai-simplest-network)
