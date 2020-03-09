@@ -7,3 +7,5 @@
 4.[101道NumPy练习题，用于数据分析](https://www.machinelearningplus.com/python/101-numpy-exercises-python/)
 
 5.[将打印的数学公式转成 LaTex 代码的工具](https://mathpix.com/)
+
+6.[简易数学函数作图工具](https://helloacm.com/tools/math-plot-graph/)
