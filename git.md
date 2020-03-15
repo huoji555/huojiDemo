@@ -14,3 +14,7 @@
 >git add ./+刚才的文件路径  //将文件从工作区，提交到暂存区，此时，git status再次查看<br>
 >git commit  //输入提交信息,vi模式退出(Esc进入命令模式，:wq保存文件并退出);<br>
 >git push    //上传选择的文件<br>
+
+### Hexo
+>配置gitee网站时，因为css文件加载不出来，在url部分的root后边加了子文件名称:/blog/
+>这样我的github文件找不到了，在想解决办法
