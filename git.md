@@ -16,5 +16,10 @@
 >git push    //上传选择的文件<br>
 
 ### Hexo
->配置gitee网站时，因为css文件加载不出来，在url部分的root后边加了子文件名称:/blog/
->这样我的github文件找不到了，在想解决办法
+>配置gitee网站时，因为css文件加载不出来，在url部分的root后边加了子文件名称:/blog/<br>
+>这样我的github文件找不到了，在想解决办法<br>
+>加了gitalk评论系统，不过要求登录github才能评论，考虑会使用`Valine`<br>
+>关于首页图片加载的问题，看了访问请求，图片被拦截了，鉴于以后使用的图片较多，会把图片存储在七牛云上，明天写个专门上传图片的demo<br>
+>已经解决首页标签的问题，需要自己(生成文件)[https://www.jianshu.com/p/ebbbc8edcc24]<br>
+>(文章基本格式)[https://blog.csdn.net/qq_32337109/article/details/78755662]<br>
+
