@@ -9,3 +9,9 @@
 5.[将打印的数学公式转成 LaTex 代码的工具](https://mathpix.com/)
 
 6.[简易数学函数作图工具](https://helloacm.com/tools/math-plot-graph/)
+
+7.[一站式的 Kafka 集群管理和维护平台](https://github.com/xaecbd/KafkaCenter)
+
+8.[Unity 是一个游戏开发引擎，它的官方教程现在免费开放3个月，从零教你写一个 3D 游戏](https://learn.unity.com/)
+
+
