@@ -22,4 +22,5 @@
 >关于首页图片加载的问题，看了访问请求，图片被拦截了，鉴于以后使用的图片较多，会把图片存储在七牛云上，明天写个专门上传图片的demo<br>
 >已经解决首页标签的问题，需要自己(生成文件)[https://www.jianshu.com/p/ebbbc8edcc24]<br>
 >(文章基本格式)[https://blog.csdn.net/qq_32337109/article/details/78755662]<br>
+>hexo clean && hexo g && hexo d  //hexo发布指令
 
