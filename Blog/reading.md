@@ -46,3 +46,5 @@ ElasticSearch 数据导出工具，目前支持json、txt。20亿的索引表中
 20.[如何破解比特币钱包的密码](https://reperiendi.wordpress.com/2020/04/03/how-i-recovered-over-300k-of-bitcoin/)
 
 21.[写解释器的感受](http://journal.stuffwithstuff.com/2020/04/05/crafting-crafting-interpreters/)
+
+22.[我们不是一家人](https://tw.appledaily.com/property/20200223/JWWUCXVVLE5XNSUJE7A7LHBHMM/)
