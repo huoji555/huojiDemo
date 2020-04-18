@@ -18,4 +18,6 @@
 
 10.[把MarkDown文本转换为思维导图](https://markmap.js.org/)
 
+11.[自动生成思维导图的搜索引擎](https://github.com/learn-anything/learn-anything)
+
 
