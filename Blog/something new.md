@@ -29,3 +29,5 @@
 
 ### 9.[激光智能眼镜](https://v.qq.com/txp/iframe/player.html?vid=k30625i5gtf)
 看起来很有科技感，可以直接在眼镜上看到对应的提示，以后肯定会推广开的
+
+### 10.[根据语音模拟人发声](https://google.github.io/tacotron/publications/speaker_adaptation/)
