@@ -27,6 +27,8 @@ ElasticSearch 数据导出工具，目前支持json、txt。20亿的索引表中
 
 11.[我们不再需要Chorme](https://redalemeden.com/blog/2019/we-need-chrome-no-more)
 
+12.[微软构建下一代网络](https://www.washingtonpost.com/video-games/2020/04/17/fortnite-metaverse-new-internet/)
+
 12.[如何构建多人在线编辑器](https://news.ycombinator.com/item?id=19845776)
 
 13.[微软复兴](https://www.bloomberg.com/news/features/2019-05-02/satya-nadella-remade-microsoft-as-world-s-most-valuable-company)
