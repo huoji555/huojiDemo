@@ -50,3 +50,5 @@ ElasticSearch 数据导出工具，目前支持json、txt。20亿的索引表中
 21.[写解释器的感受](http://journal.stuffwithstuff.com/2020/04/05/crafting-crafting-interpreters/)
 
 22.[我们不是一家人](https://tw.appledaily.com/property/20200223/JWWUCXVVLE5XNSUJE7A7LHBHMM/)
+
+23.[如何用 SQLite 建立全文搜索？](https://24ways.org/2018/fast-autocomplete-search-for-your-website/)
