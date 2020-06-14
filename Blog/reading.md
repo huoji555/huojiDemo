@@ -52,3 +52,5 @@ ElasticSearch 数据导出工具，目前支持json、txt。20亿的索引表中
 22.[我们不是一家人](https://tw.appledaily.com/property/20200223/JWWUCXVVLE5XNSUJE7A7LHBHMM/)
 
 23.[如何用 SQLite 建立全文搜索？](https://24ways.org/2018/fast-autocomplete-search-for-your-website/)
+
+24.[如何用 C 语言写一个简单的 CHIP-8 模拟器](https://cjting.me/2020/06/07/chip8-emulator/)
