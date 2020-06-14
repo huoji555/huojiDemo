@@ -25,6 +25,8 @@
 13.[换脸视频生成服务](https://myvoiceyourface.com/)
 一个在线服务，用户可以上传一张照片和一段视频，网站会将照片里的人脸，替换视频里面的人脸。
 
+14.[搜索引擎，抓取谷歌的结果，无广告，不追踪用户](https://github.com/benbusby/whoogle-search)
+
 
 
 
