@@ -58,3 +58,5 @@ ElasticSearch 数据导出工具，目前支持json、txt。20亿的索引表中
 25.[该成为通才还是专家](https://adityarohilla.com/2020/06/11/who-should-you-be-technology-generalist-or-specialist/)
 
 26.[为什么我不使用框架](https://tinyprojects.dev/posts/tiny_websites_are_great)
+
+27.[Gzip 格式和 DEFLATE 压缩算法](https://luyuhuang.tech/2020/04/28/gzip-and-deflate.html)
