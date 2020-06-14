@@ -31,3 +31,10 @@
 看起来很有科技感，可以直接在眼镜上看到对应的提示，以后肯定会推广开的
 
 ### 10.[根据语音模拟人发声](https://google.github.io/tacotron/publications/speaker_adaptation/)
+
+### 11.[机器学习吃豆人](https://www.theverge.com/2020/5/22/21266251/nvidia-ai-gamegan-recreate-pac-man-virutal-environment)
+软件通过观看就能了解游戏规则，很类似于人类的认知过程：程序员观看《吃豆人》的游戏视频，推断出游戏规则，然后重新构建它。这种能力可以用于将来的游戏设计，计算机通过观看现有的关卡，自动创建更多的关卡。
+
+### 12.[不分科教育](https://curiousmindmagazine.com/goodbye-subjects-finland-taking-revolution-education-step/)
+学生将以现实世界的现象作为起点，去学习涉及的各种知识，而不是传统的方式，先学习各学科的知识，再去认识不同的现象。新的方式把现象作为完整的实体进行研究，把跨越学科的知识和技能融合在一起。
+
