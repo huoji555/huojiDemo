@@ -101,3 +101,5 @@
 
 >无人驾驶技术的公司是这样估值的，每位工程师大约1000万美元。例如，一个刚起步的三人创业公司，估值就是3000万美元。
 
+>Simplicity is a great virtue but it requires hard work to achieve it and education to appericate it.And to make matters worse: complexity sells better
+
