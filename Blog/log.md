@@ -103,3 +103,6 @@
 
 >Simplicity is a great virtue but it requires hard work to achieve it and education to appericate it.And to make matters worse: complexity sells better
 
+>如果一本书四十年来一直再版，我们可以期待再过四十年它也会再版。如果再过十年，它确实还在再版，我就会预期它还会再存在五十年。已经存在很长时间的事物，不会像人一样“老化”，而是恰恰相反，会增加额外的预期寿命。一种事物的坚固性与其已经存在的时间成正比！
+
+>写作时感到的痛苦，是理清思想的痛苦
