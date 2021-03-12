@@ -38,3 +38,6 @@
 ### 12.[不分科教育](https://curiousmindmagazine.com/goodbye-subjects-finland-taking-revolution-education-step/)
 学生将以现实世界的现象作为起点，去学习涉及的各种知识，而不是传统的方式，先学习各学科的知识，再去认识不同的现象。新的方式把现象作为完整的实体进行研究，把跨越学科的知识和技能融合在一起。
 
+### 13.[向人体发射无线电信号，通过反射回来的信号形态](https://venturebeat.com/2021/02/13/thought-detection-ai-has-infiltrated-our-last-bastion-of-privacy/)
+伦敦玛丽女王大学发表了一份不可思议的研究报告，向人体发射无线电信号，通过反射回来的信号形态，可以判断这个人的情绪状态。研究人员发现，人在不同情绪状态下，反射的无线电电波形态是不一样的。
+
