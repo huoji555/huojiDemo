@@ -9,3 +9,5 @@
 > [snaker(搜索引擎及对话机器人)](http://www.snakehacker.me/)
 
 > [Redis开源人博客](http://antirez.com/news/129)
+
+> [自己动手构建机器人](http://www.lcsays.com/)
