@@ -189,3 +189,8 @@ DNS1=DNS解析
 
 重启网络配置
 service network restart
+
+# windows查看端口
+netstat -ano |findstr "10009"
+taskkill -pid 23467 /f
+
