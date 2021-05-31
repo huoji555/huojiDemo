@@ -194,3 +194,6 @@ service network restart
 netstat -ano |findstr "10009"
 taskkill -pid 23467 /f
 
+# 文档笔记
+http://note.youdao.com/noteshare?id=8f657e40e8f1ec07cf5881187b83decc&sub=C82478BD4DAE48CA80E1F03F6F180E28
+
