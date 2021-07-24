@@ -60,3 +60,7 @@ ElasticSearch 数据导出工具，目前支持json、txt。20亿的索引表中
 26.[为什么我不使用框架](https://tinyprojects.dev/posts/tiny_websites_are_great)
 
 27.[Gzip 格式和 DEFLATE 压缩算法](https://luyuhuang.tech/2020/04/28/gzip-and-deflate.html)
+
+28.[自己动手实现一个简单的数据库](https://cstack.github.io/db_tutorial/)
+
+29.[只要发现源码文件有变动，就会自动重新启动服务](https://blog.pankajtanwar.in/have-you-ever-thought-how-nodemon-works-internally-lets-build-our-own-nodemon-in-under-10-minutes)
