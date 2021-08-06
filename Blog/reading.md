@@ -64,3 +64,7 @@ ElasticSearch 数据导出工具，目前支持json、txt。20亿的索引表中
 28.[自己动手实现一个简单的数据库](https://cstack.github.io/db_tutorial/)
 
 29.[只要发现源码文件有变动，就会自动重新启动服务](https://blog.pankajtanwar.in/have-you-ever-thought-how-nodemon-works-internally-lets-build-our-own-nodemon-in-under-10-minutes)
+
+30.[信息检索导论-介绍搜索引擎的原理和基本技术](https://nlp.stanford.edu/IR-book/)
+
+31.[好友关系的数据库设计](https://minimalmodeling.substack.com/p/modeling-mutual-friendship)
