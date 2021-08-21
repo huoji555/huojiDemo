@@ -68,3 +68,7 @@ ElasticSearch 数据导出工具，目前支持json、txt。20亿的索引表中
 30.[信息检索导论-介绍搜索引擎的原理和基本技术](https://nlp.stanford.edu/IR-book/)
 
 31.[好友关系的数据库设计](https://minimalmodeling.substack.com/p/modeling-mutual-friendship)
+
+32.[MDN 如何实现自动补全搜索？](https://hacks.mozilla.org/2021/08/mdns-autocomplete-search/)
+
+
