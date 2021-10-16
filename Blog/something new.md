@@ -43,3 +43,6 @@
 
 ### 14.[GitHub提交3D打印](https://daniel.haxx.se/blog/2021/03/23/github-steel/)
 
+### 15.[教娃编程视频300天](https://zhihua-lai.com/teaching/ch/)
+[一个工程师给娃讲了很多数学和计算机知识的短视频](https://justyy.com/archives/45834)
+
